@@ -83,6 +83,7 @@ def list_subscriptions(
 
 
 @router.get("/forgotten", response_model=List[SubscriptionRead])
+@router.get("/subscriptions/forgotten", response_model=List[SubscriptionRead])
 def get_potentially_forgotten(user_id: int = Query(1), db: Session = Depends(get_db)):
     """
     Returns subscriptions where review_flag is True (review recommended / potentially forgotten).
