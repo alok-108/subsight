@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0A0A0B;
+  --ink-soft: #16161A;
+  --muted: #6B7280;
+  --line: #E9E9EF;
+  --surface: #FFFFFF;
+  --canvas: #FAFAFB;
+  --purple-50: #F5F3FF;
+  --purple-100: #EDE9FE;
+  --purple-400: #A855F7;
+  --purple-500: #7C3AED;
+  --purple-600: #6D28D9;
+  --grad-purple: linear-gradient(135deg, #7C3AED 0%, #A855F7 100%);
+  --shadow-subtle: 0 1px 3px rgba(10, 10, 11, 0.04), 0 1px 2px rgba(10, 10, 11, 0.02);
+  --shadow-elevated: 0 8px 24px rgba(10, 10, 11, 0.06), 0 2px 6px rgba(10, 10, 11, 0.03);
+}
+
+.dark {
+  --ink: #F9FAFB;
+  --ink-soft: #E5E7EB;
+  --muted: #9CA3AF;
+  --line: #27272A;
+  --surface: #121215;
+  --canvas: #0A0A0C;
+  --purple-50: #1E1B4B;
+  --purple-100: #2E1065;
+  --purple-400: #C084FC;
+  --purple-500: #8B5CF6;
+  --purple-600: #7C3AED;
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom card shadow & transition */
+.subsight-card {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow-subtle);
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+}
+
+.subsight-card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Purple gradient button */
+.btn-purple {
+  background: var(--grad-purple);
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.btn-purple:hover {
+  opacity: 0.94;
+  transform: translateY(-1px);
+}
+
+.btn-purple:focus-visible {
+  outline: 2px solid var(--purple-500);
+  outline-offset: 2px;
+}
+
+/* Secondary outline button */
+.btn-secondary {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  border-radius: 12px;
+  font-weight: 500;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--purple-50);
+  border-color: var(--purple-100);
+}
+
+/* Input styling */
+.subsight-input {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--ink);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.subsight-input:focus {
+  border-color: var(--purple-500);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}

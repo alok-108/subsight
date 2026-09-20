@@ -1,0 +1,295 @@
+date,merchant,description,amount,direction,account_holder,category
+2025-02-20,Blinkit Quick Delivery,Purchase at Blinkit,407.00,debit,Aarav Sharma,Groceries
+2025-02-21,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-02-24,Croma Electronics,Purchase at Croma,1430.00,debit,Aarav Sharma,Electronics
+2025-02-24,Mainland China Restaurant,Purchase at Mainland China,1601.00,debit,Aarav Sharma,Food & Dining
+2025-02-27,DMart Supermarket,Purchase at DMart,2292.00,debit,Aarav Sharma,Groceries
+2025-03-02,Zomato Delivery,Purchase at Zomato,586.00,debit,Aarav Sharma,Food & Dining
+2025-03-04,IRCTC Train Ticket Reservation,Purchase at IRCTC,1641.00,debit,Aarav Sharma,Travel
+2025-03-08,Apollo Pharmacy,Purchase at Apollo Pharmacy,953.00,debit,Aarav Sharma,Health & Fitness
+2025-03-08,Indian Oil Petrol Pump,Purchase at Indian Oil,1968.00,debit,Aarav Sharma,Transport
+2025-03-14,Reliance Smart Bazaar,Purchase at Reliance Smart,2338.00,debit,Aarav Sharma,Shopping
+2025-03-19,Uber Ride,Purchase at Uber,639.00,debit,Aarav Sharma,Transport
+2025-03-20,NETFLIX.COM*12345,Subscription Payment NETFLIX.COM*12345,649.00,debit,Aarav Sharma,Entertainment
+2025-03-20,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-03-20,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-03-23,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-03-27,Chai Point Whitefield,Purchase at Chai Point,199.00,debit,Aarav Sharma,Food & Dining
+2025-03-27,Myntra Fashion App,Purchase at Myntra,884.00,debit,Aarav Sharma,Shopping
+2025-03-29,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,76.00,debit,Aarav Sharma,Utilities
+2025-04-01,Myntra Fashion App,Purchase at Myntra,2336.00,debit,Aarav Sharma,Shopping
+2025-04-02,Mainland China Restaurant,Purchase at Mainland China,1449.00,debit,Aarav Sharma,Food & Dining
+2025-04-05,Zomato Delivery,Purchase at Zomato,909.00,debit,Aarav Sharma,Food & Dining
+2025-04-13,Croma Electronics,Purchase at Croma,2084.00,debit,Aarav Sharma,Electronics
+2025-04-19,NETFLIX MUMBAI,Subscription Payment NETFLIX MUMBAI,649.00,debit,Aarav Sharma,Entertainment
+2025-04-19,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-04-21,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-04-22,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-04-27,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,2581.00,debit,Aarav Sharma,Food & Dining
+2025-04-28,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,76.00,debit,Aarav Sharma,Utilities
+2025-04-30,Zepto Instant Grocery,Purchase at Zepto,878.00,debit,Aarav Sharma,Groceries
+2025-05-01,Mainland China Restaurant,Purchase at Mainland China,2556.00,debit,Aarav Sharma,Food & Dining
+2025-05-03,DMart Supermarket,Purchase at DMart,2853.00,debit,Aarav Sharma,Groceries
+2025-05-05,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,3029.00,debit,Aarav Sharma,Food & Dining
+2025-05-05,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,2728.00,debit,Aarav Sharma,Food & Dining
+2025-05-09,Zepto Instant Grocery,Purchase at Zepto,1079.00,debit,Aarav Sharma,Groceries
+2025-05-10,AMAZON PRIME ANNUAL MEMBERSHIP,Amazon Prime 1-Year Plan,1499.00,debit,Aarav Sharma,Entertainment
+2025-05-11,IRCTC Train Ticket Reservation,Purchase at IRCTC,1145.00,debit,Aarav Sharma,Travel
+2025-05-12,Chai Point Whitefield,Purchase at Chai Point,234.00,debit,Aarav Sharma,Food & Dining
+2025-05-14,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,1903.00,debit,Aarav Sharma,Food & Dining
+2025-05-15,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-05-19,Netflix Entertainment,Subscription Payment Netflix Entertainment,649.00,debit,Aarav Sharma,Entertainment
+2025-05-19,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-05-19,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-05-20,Starbucks Coffee,Purchase at Starbucks,729.00,debit,Aarav Sharma,Food & Dining
+2025-05-21,Starbucks Coffee,Purchase at Starbucks,523.00,debit,Aarav Sharma,Food & Dining
+2025-05-22,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-05-28,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,74.00,debit,Aarav Sharma,Utilities
+2025-05-31,Blinkit Quick Delivery,Purchase at Blinkit,1008.00,debit,Aarav Sharma,Groceries
+2025-06-01,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-06-04,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,3666.00,debit,Aarav Sharma,Food & Dining
+2025-06-06,Swiggy Order Bangalore,Swiggy Delivery Dinner 45,480.00,debit,Aarav Sharma,Food & Dining
+2025-06-07,IRCTC Train Ticket Reservation,Purchase at IRCTC,2395.00,debit,Aarav Sharma,Travel
+2025-06-11,Myntra Fashion App,Purchase at Myntra,2651.00,debit,Aarav Sharma,Shopping
+2025-06-12,Indian Oil Petrol Pump,Purchase at Indian Oil,2967.00,debit,Aarav Sharma,Transport
+2025-06-13,Swiggy Order Bangalore,Swiggy Delivery Dinner 44,620.00,debit,Aarav Sharma,Food & Dining
+2025-06-14,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-06-16,Mainland China Restaurant,Purchase at Mainland China,2142.00,debit,Aarav Sharma,Food & Dining
+2025-06-16,DMart Supermarket,Purchase at DMart,1229.00,debit,Aarav Sharma,Groceries
+2025-06-18,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-06-19,BookMyShow Movie Tickets,Purchase at BookMyShow,720.00,debit,Aarav Sharma,Entertainment
+2025-06-20,NETFLIX IN,Subscription Payment NETFLIX IN,649.00,debit,Aarav Sharma,Entertainment
+2025-06-20,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-06-20,Swiggy Order Bangalore,Swiggy Delivery Dinner 43,390.00,debit,Aarav Sharma,Food & Dining
+2025-06-21,Blue Tokai Coffee Roasters,Purchase at Blue Tokai,260.00,debit,Aarav Sharma,Food & Dining
+2025-06-21,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-06-22,Apollo Pharmacy,Purchase at Apollo Pharmacy,617.00,debit,Aarav Sharma,Health & Fitness
+2025-06-27,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,75.00,debit,Aarav Sharma,Utilities
+2025-06-27,Swiggy Order Bangalore,Swiggy Delivery Dinner 42,310.00,debit,Aarav Sharma,Food & Dining
+2025-06-30,Swiggy Food Order,Purchase at Swiggy,294.00,debit,Aarav Sharma,Food & Dining
+2025-07-01,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-07-04,Swiggy Order Bangalore,Swiggy Delivery Dinner 41,240.00,debit,Aarav Sharma,Food & Dining
+2025-07-11,Swiggy Order Bangalore,Swiggy Delivery Dinner 40,750.00,debit,Aarav Sharma,Food & Dining
+2025-07-11,Starbucks Coffee,Purchase at Starbucks,320.00,debit,Aarav Sharma,Food & Dining
+2025-07-11,BigBasket Weekly Groceries,Purchase at BigBasket,3138.00,debit,Aarav Sharma,Groceries
+2025-07-13,ZOMATO GOLD 3 MONTHS,Zomato Gold Dining & Delivery Membership,299.00,debit,Aarav Sharma,Food & Dining
+2025-07-13,Reliance Smart Bazaar,Purchase at Reliance Smart,3525.00,debit,Aarav Sharma,Shopping
+2025-07-14,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-07-18,NETFLIX.COM*98412,Subscription Payment NETFLIX.COM*98412,649.00,debit,Aarav Sharma,Entertainment
+2025-07-18,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-07-18,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-07-18,Swiggy Order Bangalore,Swiggy Delivery Dinner 39,480.00,debit,Aarav Sharma,Food & Dining
+2025-07-20,Myntra Fashion App,Purchase at Myntra,1718.00,debit,Aarav Sharma,Shopping
+2025-07-21,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-07-25,Swiggy Order Bangalore,Swiggy Delivery Dinner 38,890.00,debit,Aarav Sharma,Food & Dining
+2025-07-27,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,75.00,debit,Aarav Sharma,Utilities
+2025-07-28,Reliance Smart Bazaar,Purchase at Reliance Smart,1442.00,debit,Aarav Sharma,Shopping
+2025-07-29,Apollo Pharmacy,Purchase at Apollo Pharmacy,634.00,debit,Aarav Sharma,Health & Fitness
+2025-07-30,Starbucks Coffee,Purchase at Starbucks,481.00,debit,Aarav Sharma,Food & Dining
+2025-07-31,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-08-01,Swiggy Order Bangalore,Swiggy Delivery Dinner 37,890.00,debit,Aarav Sharma,Food & Dining
+2025-08-04,Blinkit Quick Delivery,Purchase at Blinkit,246.00,debit,Aarav Sharma,Groceries
+2025-08-08,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2025-08-08,Swiggy Order Bangalore,Swiggy Delivery Dinner 36,390.00,debit,Aarav Sharma,Food & Dining
+2025-08-10,Ola Cab Bengaluru,Purchase at Ola,560.00,debit,Aarav Sharma,Transport
+2025-08-13,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-08-15,Swiggy Order Bangalore,Swiggy Delivery Dinner 35,890.00,debit,Aarav Sharma,Food & Dining
+2025-08-17,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-08-17,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-08-19,Netflix,Subscription Payment Netflix,649.00,debit,Aarav Sharma,Entertainment
+2025-08-20,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-08-22,Swiggy Order Bangalore,Swiggy Delivery Dinner 34,1450.00,debit,Aarav Sharma,Food & Dining
+2025-08-22,Myntra Fashion App,Purchase at Myntra,947.00,debit,Aarav Sharma,Shopping
+2025-08-26,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,76.00,debit,Aarav Sharma,Utilities
+2025-08-27,BigBasket Weekly Groceries,Purchase at BigBasket,2528.00,debit,Aarav Sharma,Groceries
+2025-08-29,Swiggy Order Bangalore,Swiggy Delivery Dinner 33,750.00,debit,Aarav Sharma,Food & Dining
+2025-08-30,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-09-01,Starbucks Coffee,Purchase at Starbucks,782.00,debit,Aarav Sharma,Food & Dining
+2025-09-01,Mainland China Restaurant,Purchase at Mainland China,2439.00,debit,Aarav Sharma,Food & Dining
+2025-09-03,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2025-09-03,Uber Ride,Purchase at Uber,584.00,debit,Aarav Sharma,Transport
+2025-09-05,Swiggy Order Bangalore,Swiggy Delivery Dinner 32,1120.00,debit,Aarav Sharma,Food & Dining
+2025-09-07,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2025-09-09,IRCTC Train Ticket Reservation,Purchase at IRCTC,1376.00,debit,Aarav Sharma,Travel
+2025-09-09,Mainland China Restaurant,Purchase at Mainland China,3193.00,debit,Aarav Sharma,Food & Dining
+2025-09-12,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-09-12,Swiggy Order Bangalore,Swiggy Delivery Dinner 31,240.00,debit,Aarav Sharma,Food & Dining
+2025-09-14,Swiggy Food Order,Purchase at Swiggy,363.00,debit,Aarav Sharma,Food & Dining
+2025-09-16,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-09-17,Blue Tokai Coffee Roasters,Purchase at Blue Tokai,319.00,debit,Aarav Sharma,Food & Dining
+2025-09-18,NETFLIX.COM,Subscription Payment NETFLIX.COM,649.00,debit,Aarav Sharma,Entertainment
+2025-09-18,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-09-19,Swiggy Order Bangalore,Swiggy Delivery Dinner 30,480.00,debit,Aarav Sharma,Food & Dining
+2025-09-19,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-09-20,Reliance Smart Bazaar,Purchase at Reliance Smart,1171.00,debit,Aarav Sharma,Shopping
+2025-09-23,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,3379.00,debit,Aarav Sharma,Food & Dining
+2025-09-25,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,74.00,debit,Aarav Sharma,Utilities
+2025-09-26,Swiggy Order Bangalore,Swiggy Delivery Dinner 29,240.00,debit,Aarav Sharma,Food & Dining
+2025-09-29,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-10-03,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2025-10-03,Swiggy Order Bangalore,Swiggy Delivery Dinner 28,750.00,debit,Aarav Sharma,Food & Dining
+2025-10-06,Croma Electronics,Purchase at Croma,1096.00,debit,Aarav Sharma,Electronics
+2025-10-07,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2025-10-10,Swiggy Order Bangalore,Swiggy Delivery Dinner 27,480.00,debit,Aarav Sharma,Food & Dining
+2025-10-12,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-10-12,ZOMATO GOLD 3 MONTHS,Zomato Gold Dining & Delivery Membership,299.00,debit,Aarav Sharma,Food & Dining
+2025-10-16,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-10-17,Swiggy Order Bangalore,Swiggy Delivery Dinner 26,180.00,debit,Aarav Sharma,Food & Dining
+2025-10-17,Blinkit Quick Delivery,Purchase at Blinkit,650.00,debit,Aarav Sharma,Groceries
+2025-10-18,NETFLIX.COM*12345,Subscription Payment NETFLIX.COM*12345,649.00,debit,Aarav Sharma,Entertainment
+2025-10-18,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-10-19,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-10-21,Zepto Instant Grocery,Purchase at Zepto,480.00,debit,Aarav Sharma,Groceries
+2025-10-22,Zepto Instant Grocery,Purchase at Zepto,434.00,debit,Aarav Sharma,Groceries
+2025-10-24,Swiggy Order Bangalore,Swiggy Delivery Dinner 25,240.00,debit,Aarav Sharma,Food & Dining
+2025-10-25,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,76.00,debit,Aarav Sharma,Utilities
+2025-10-25,BigBasket Weekly Groceries,Purchase at BigBasket,1872.00,debit,Aarav Sharma,Groceries
+2025-10-26,Blinkit Quick Delivery,Purchase at Blinkit,637.00,debit,Aarav Sharma,Groceries
+2025-10-27,Reliance Smart Bazaar,Purchase at Reliance Smart,1184.00,debit,Aarav Sharma,Shopping
+2025-10-29,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,499.00,debit,Aarav Sharma,Utilities
+2025-10-31,Swiggy Order Bangalore,Swiggy Delivery Dinner 24,480.00,debit,Aarav Sharma,Food & Dining
+2025-11-02,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2025-11-03,Ola Cab Bengaluru,Purchase at Ola,661.00,debit,Aarav Sharma,Transport
+2025-11-06,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2025-11-07,Swiggy Order Bangalore,Swiggy Delivery Dinner 23,310.00,debit,Aarav Sharma,Food & Dining
+2025-11-08,DMart Supermarket,Purchase at DMart,2113.00,debit,Aarav Sharma,Groceries
+2025-11-11,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-11-14,Swiggy Order Bangalore,Swiggy Delivery Dinner 22,890.00,debit,Aarav Sharma,Food & Dining
+2025-11-15,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-11-16,NETFLIX MUMBAI,Subscription Payment NETFLIX MUMBAI,649.00,debit,Aarav Sharma,Entertainment
+2025-11-17,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-11-18,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-11-21,Swiggy Order Bangalore,Swiggy Delivery Dinner 21,310.00,debit,Aarav Sharma,Food & Dining
+2025-11-22,Apollo Pharmacy,Purchase at Apollo Pharmacy,558.00,debit,Aarav Sharma,Health & Fitness
+2025-11-23,Zomato Delivery,Purchase at Zomato,223.00,debit,Aarav Sharma,Food & Dining
+2025-11-24,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,75.00,debit,Aarav Sharma,Utilities
+2025-11-25,Croma Electronics,Purchase at Croma,2927.00,debit,Aarav Sharma,Electronics
+2025-11-26,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,3781.00,debit,Aarav Sharma,Food & Dining
+2025-11-28,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,549.00,debit,Aarav Sharma,Utilities
+2025-11-28,Swiggy Order Bangalore,Swiggy Delivery Dinner 20,750.00,debit,Aarav Sharma,Food & Dining
+2025-11-29,BookMyShow Movie Tickets,Purchase at BookMyShow,484.00,debit,Aarav Sharma,Entertainment
+2025-12-01,Uber Ride,Purchase at Uber,391.00,debit,Aarav Sharma,Transport
+2025-12-02,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2025-12-05,Swiggy Order Bangalore,Swiggy Delivery Dinner 19,620.00,debit,Aarav Sharma,Food & Dining
+2025-12-06,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2025-12-06,Mainland China Restaurant,Purchase at Mainland China,1247.00,debit,Aarav Sharma,Food & Dining
+2025-12-07,Blinkit Quick Delivery,Purchase at Blinkit,1057.00,debit,Aarav Sharma,Groceries
+2025-12-08,Mainland China Restaurant,Purchase at Mainland China,2276.00,debit,Aarav Sharma,Food & Dining
+2025-12-11,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2025-12-12,Swiggy Order Bangalore,Swiggy Delivery Dinner 18,240.00,debit,Aarav Sharma,Food & Dining
+2025-12-13,Uber Ride,Purchase at Uber,301.00,debit,Aarav Sharma,Transport
+2025-12-15,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2025-12-17,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2025-12-17,Zomato Delivery,Purchase at Zomato,543.00,debit,Aarav Sharma,Food & Dining
+2025-12-17,Blinkit Quick Delivery,Purchase at Blinkit,214.00,debit,Aarav Sharma,Groceries
+2025-12-18,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2025-12-19,Swiggy Order Bangalore,Swiggy Delivery Dinner 17,1120.00,debit,Aarav Sharma,Food & Dining
+2025-12-22,Myntra Fashion App,Purchase at Myntra,879.00,debit,Aarav Sharma,Shopping
+2025-12-22,BigBasket Weekly Groceries,Purchase at BigBasket,2887.00,debit,Aarav Sharma,Groceries
+2025-12-23,Zomato Delivery,Purchase at Zomato,813.00,debit,Aarav Sharma,Food & Dining
+2025-12-24,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,76.00,debit,Aarav Sharma,Utilities
+2025-12-26,Swiggy Order Bangalore,Swiggy Delivery Dinner 16,240.00,debit,Aarav Sharma,Food & Dining
+2025-12-26,Chai Point Whitefield,Purchase at Chai Point,273.00,debit,Aarav Sharma,Food & Dining
+2025-12-26,Mainland China Restaurant,Purchase at Mainland China,2023.00,debit,Aarav Sharma,Food & Dining
+2025-12-27,Myntra Fashion App,Purchase at Myntra,1483.00,debit,Aarav Sharma,Shopping
+2025-12-27,DMart Supermarket,Purchase at DMart,3931.00,debit,Aarav Sharma,Groceries
+2025-12-28,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,549.00,debit,Aarav Sharma,Utilities
+2025-12-30,Myntra Fashion App,Purchase at Myntra,1627.00,debit,Aarav Sharma,Shopping
+2026-01-01,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2026-01-01,Indian Oil Petrol Pump,Purchase at Indian Oil,2232.00,debit,Aarav Sharma,Transport
+2026-01-02,Swiggy Order Bangalore,Swiggy Delivery Dinner 15,620.00,debit,Aarav Sharma,Food & Dining
+2026-01-05,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2026-01-05,Ola Cab Bengaluru,Purchase at Ola,699.00,debit,Aarav Sharma,Transport
+2026-01-06,Zepto Instant Grocery,Purchase at Zepto,279.00,debit,Aarav Sharma,Groceries
+2026-01-08,Blinkit Quick Delivery,Purchase at Blinkit,289.00,debit,Aarav Sharma,Groceries
+2026-01-09,Swiggy Order Bangalore,Swiggy Delivery Dinner 14,1450.00,debit,Aarav Sharma,Food & Dining
+2026-01-10,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2026-01-10,Reliance Smart Bazaar,Purchase at Reliance Smart,2794.00,debit,Aarav Sharma,Shopping
+2026-01-11,ZOMATO GOLD 3 MONTHS,Zomato Gold Dining & Delivery Membership,299.00,debit,Aarav Sharma,Food & Dining
+2026-01-14,NETFLIX IN,Subscription Payment NETFLIX IN,649.00,debit,Aarav Sharma,Entertainment
+2026-01-14,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2026-01-16,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2026-01-16,Swiggy Order Bangalore,Swiggy Delivery Dinner 13,180.00,debit,Aarav Sharma,Food & Dining
+2026-01-17,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2026-01-18,IRCTC Train Ticket Reservation,Purchase at IRCTC,1414.00,debit,Aarav Sharma,Travel
+2026-01-19,Reliance Smart Bazaar,Purchase at Reliance Smart,3061.00,debit,Aarav Sharma,Shopping
+2026-01-20,Indian Oil Petrol Pump,Purchase at Indian Oil,2354.00,debit,Aarav Sharma,Transport
+2026-01-21,Indian Oil Petrol Pump,Purchase at Indian Oil,2551.00,debit,Aarav Sharma,Transport
+2026-01-22,Zepto Instant Grocery,Purchase at Zepto,571.00,debit,Aarav Sharma,Groceries
+2026-01-23,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,74.00,debit,Aarav Sharma,Utilities
+2026-01-23,Swiggy Order Bangalore,Swiggy Delivery Dinner 12,750.00,debit,Aarav Sharma,Food & Dining
+2026-01-24,Ola Cab Bengaluru,Purchase at Ola,453.00,debit,Aarav Sharma,Transport
+2026-01-25,Ajio Retail Online,Purchase at Ajio,1161.00,debit,Aarav Sharma,Shopping
+2026-01-27,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,549.00,debit,Aarav Sharma,Utilities
+2026-01-28,IRCTC Train Ticket Reservation,Purchase at IRCTC,681.00,debit,Aarav Sharma,Travel
+2026-01-30,Swiggy Order Bangalore,Swiggy Delivery Dinner 11,310.00,debit,Aarav Sharma,Food & Dining
+2026-01-30,Reliance Smart Bazaar,Purchase at Reliance Smart,1471.00,debit,Aarav Sharma,Shopping
+2026-01-31,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2026-02-04,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2026-02-04,Reliance Smart Bazaar,Purchase at Reliance Smart,1372.00,debit,Aarav Sharma,Shopping
+2026-02-06,Swiggy Order Bangalore,Swiggy Delivery Dinner 10,890.00,debit,Aarav Sharma,Food & Dining
+2026-02-07,Apollo Pharmacy,Purchase at Apollo Pharmacy,1245.00,debit,Aarav Sharma,Health & Fitness
+2026-02-09,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2026-02-11,DMart Supermarket,Purchase at DMart,2120.00,debit,Aarav Sharma,Groceries
+2026-02-11,Chai Point Whitefield,Purchase at Chai Point,153.00,debit,Aarav Sharma,Food & Dining
+2026-02-13,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2026-02-13,Swiggy Order Bangalore,Swiggy Delivery Dinner 9,890.00,debit,Aarav Sharma,Food & Dining
+2026-02-14,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2026-02-15,NETFLIX.COM*98412,Subscription Payment NETFLIX.COM*98412,649.00,debit,Aarav Sharma,Entertainment
+2026-02-16,BigBasket Weekly Groceries,Purchase at BigBasket,1455.00,debit,Aarav Sharma,Groceries
+2026-02-16,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2026-02-18,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,2722.00,debit,Aarav Sharma,Food & Dining
+2026-02-18,Mainland China Restaurant,Purchase at Mainland China,1836.00,debit,Aarav Sharma,Food & Dining
+2026-02-20,Swiggy Order Bangalore,Swiggy Delivery Dinner 8,240.00,debit,Aarav Sharma,Food & Dining
+2026-02-20,Ajio Retail Online,Purchase at Ajio,2793.00,debit,Aarav Sharma,Shopping
+2026-02-22,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,74.00,debit,Aarav Sharma,Utilities
+2026-02-26,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,549.00,debit,Aarav Sharma,Utilities
+2026-02-27,Swiggy Order Bangalore,Swiggy Delivery Dinner 7,1120.00,debit,Aarav Sharma,Food & Dining
+2026-03-02,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2026-03-04,Blinkit Quick Delivery,Purchase at Blinkit,1145.00,debit,Aarav Sharma,Groceries
+2026-03-06,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2026-03-06,Swiggy Order Bangalore,Swiggy Delivery Dinner 6,240.00,debit,Aarav Sharma,Food & Dining
+2026-03-06,BigBasket Weekly Groceries,Purchase at BigBasket,3034.00,debit,Aarav Sharma,Groceries
+2026-03-07,Mainland China Restaurant,Purchase at Mainland China,2073.00,debit,Aarav Sharma,Food & Dining
+2026-03-08,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,1741.00,debit,Aarav Sharma,Food & Dining
+2026-03-11,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2026-03-12,BookMyShow Movie Tickets,Purchase at BookMyShow,740.00,debit,Aarav Sharma,Entertainment
+2026-03-12,Myntra Fashion App,Purchase at Myntra,736.00,debit,Aarav Sharma,Shopping
+2026-03-13,Swiggy Order Bangalore,Swiggy Delivery Dinner 5,240.00,debit,Aarav Sharma,Food & Dining
+2026-03-13,BookMyShow Movie Tickets,Purchase at BookMyShow,1095.00,debit,Aarav Sharma,Entertainment
+2026-03-14,Uber Ride,Purchase at Uber,508.00,debit,Aarav Sharma,Transport
+2026-03-15,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
+2026-03-15,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2026-03-15,DMart Supermarket,Purchase at DMart,3523.00,debit,Aarav Sharma,Groceries
+2026-03-15,Starbucks Coffee,Purchase at Starbucks,402.00,debit,Aarav Sharma,Food & Dining
+2026-03-16,Netflix,Subscription Payment Netflix,649.00,debit,Aarav Sharma,Entertainment
+2026-03-17,Netflix,Subscription Payment Netflix,649.00,debit,Aarav Sharma,Entertainment
+2026-03-18,Blinkit Quick Delivery,Purchase at Blinkit,1017.00,debit,Aarav Sharma,Groceries
+2026-03-18,INFOSYS TECH SALARY CREDIT,Monthly Salary Deposit,165000.00,credit,Aarav Sharma,Salary
+2026-03-19,Toit Brewpub Indiranagar,Purchase at Toit Brewpub,3714.00,debit,Aarav Sharma,Food & Dining
+2026-03-19,Chai Point Whitefield,Purchase at Chai Point,212.00,debit,Aarav Sharma,Food & Dining
+2026-03-20,Swiggy Order Bangalore,Swiggy Delivery Dinner 4,890.00,debit,Aarav Sharma,Food & Dining
+2026-03-23,Croma Electronics,Purchase at Croma,1943.00,debit,Aarav Sharma,Electronics
+2026-03-24,APPLE COM BILL ICLOUD,iCloud 50GB Storage Plan,74.00,debit,Aarav Sharma,Utilities
+2026-03-25,Apollo Pharmacy,Purchase at Apollo Pharmacy,575.00,debit,Aarav Sharma,Health & Fitness
+2026-03-25,Zepto Instant Grocery,Purchase at Zepto,790.00,debit,Aarav Sharma,Groceries
+2026-03-26,Ajio Retail Online,Purchase at Ajio,2763.00,debit,Aarav Sharma,Shopping
+2026-03-27,Swiggy Order Bangalore,Swiggy Delivery Dinner 3,480.00,debit,Aarav Sharma,Food & Dining
+2026-03-28,Cloud Storage Pro Zoho,Cloud Storage Subscription Plan,549.00,debit,Aarav Sharma,Utilities
+2026-03-30,Zepto Instant Grocery,Purchase at Zepto,1078.00,debit,Aarav Sharma,Groceries
+2026-04-01,ADOBE *CREATIVE CLOUD IRELAND,Adobe Creative Cloud Photography Plan,1675.00,debit,Aarav Sharma,Productivity
+2026-04-01,Ola Cab Bengaluru,Purchase at Ola,558.00,debit,Aarav Sharma,Transport
+2026-04-03,Swiggy Order Bangalore,Swiggy Delivery Dinner 2,390.00,debit,Aarav Sharma,Food & Dining
+2026-04-04,Zepto Instant Grocery,Purchase at Zepto,551.00,debit,Aarav Sharma,Groceries
+2026-04-05,CULT FIT HEALTHCARE BANGALORE,Cult.fit Monthly Membership Auto-Pay,1499.00,debit,Aarav Sharma,Health & Fitness
+2026-04-06,Blinkit Quick Delivery,Purchase at Blinkit,634.00,debit,Aarav Sharma,Groceries
+2026-04-09,Indian Oil Petrol Pump,Purchase at Indian Oil,1209.00,debit,Aarav Sharma,Transport
+2026-04-09,Mainland China Restaurant,Purchase at Mainland China,2426.00,debit,Aarav Sharma,Food & Dining
+2026-04-10,YouTube Premium Membership,YouTube Premium Individual Plan,129.00,debit,Aarav Sharma,Entertainment
+2026-04-10,Swiggy Order Bangalore,Swiggy Delivery Dinner 1,750.00,debit,Aarav Sharma,Food & Dining
+2026-04-12,ZOMATO GOLD 3 MONTHS,Zomato Gold Dining & Delivery Membership,299.00,debit,Aarav Sharma,Food & Dining
+2026-04-12,Reliance Smart Bazaar,Purchase at Reliance Smart,2950.00,debit,Aarav Sharma,Shopping
+2026-04-12,BookMyShow Movie Tickets,Purchase at BookMyShow,621.00,debit,Aarav Sharma,Entertainment
+2026-04-14,NETFLIX.COM,Subscription Payment NETFLIX.COM,649.00,debit,Aarav Sharma,Entertainment
+2026-04-14,GOOGLE *STORAGE 100GB,Google One Cloud Storage,130.00,debit,Aarav Sharma,Utilities
+2026-04-16,Spotify Premium India,Recurring Debit - Spotify Premium,119.00,debit,Aarav Sharma,Entertainment
