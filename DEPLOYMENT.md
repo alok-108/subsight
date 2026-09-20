@@ -4,6 +4,18 @@ This document details the production architecture, step-by-step deployment proce
 
 ---
 
+## ⚡ Live Production Endpoints
+
+| Service | URL |
+|---------|-----|
+| 🌐 **Frontend (Vercel)** | [https://subsight-app.vercel.app](https://subsight-app.vercel.app) |
+| ⚙️ **Backend API (Render)** | [https://subsight-api-v2.onrender.com](https://subsight-api-v2.onrender.com) |
+| 📖 **Swagger UI / API Docs** | [https://subsight-api-v2.onrender.com/docs](https://subsight-api-v2.onrender.com/docs) |
+| ❤️ **Health Check** | [https://subsight-api-v2.onrender.com/api/health](https://subsight-api-v2.onrender.com/api/health) |
+| 📦 **GitHub Repository** | [https://github.com/kdutt0974-source/subsight](https://github.com/kdutt0974-source/subsight) |
+
+---
+
 ## 1. Production Architecture Overview
 
 ```
@@ -126,9 +138,9 @@ Configure these in the Vercel Project Settings under **Environment Variables**:
 ### Step 3.4: Wire Up CORS on Render
 
 1. Return to Render Dashboard → `subsight-api` → **Environment**.
-2. Update `ALLOWED_ORIGINS` to include your new Vercel production domain:
+2. Update `ALLOWED_ORIGINS` to include your Vercel production domain:
    ```env
-   ALLOWED_ORIGINS=https://subsight.vercel.app,http://localhost:3000
+   ALLOWED_ORIGINS=https://subsight-app.vercel.app,http://localhost:3000
    ```
 3. Click **Save Changes** (Render will automatically re-deploy in ~30 seconds).
 
@@ -184,27 +196,30 @@ Run through this checklist 15 minutes prior to any live presentation:
 
 - [ ] **1. Ping Backend Health:**
   ```bash
-  curl -i https://<your-render-backend>.onrender.com/api/health
+  curl -i https://subsight-api-v2.onrender.com/api/health
   # Must return HTTP 200 with {"status":"ok","database":"connected"}
   ```
 - [ ] **2. Warm Up Instance:**
-  - Render free instances take ~40 seconds if cold. Access the URL once before presenting to ensure it is awake and snappy.
+  - Render free instances take ~40 seconds if cold. Visit [https://subsight-api-v2.onrender.com/api/health](https://subsight-api-v2.onrender.com/api/health) once before presenting.
 - [ ] **3. Verify CORS Header:**
   ```bash
-  curl -I -X OPTIONS https://<your-render-backend>.onrender.com/api/dashboard \
-    -H "Origin: https://subsight.vercel.app" \
+  curl -I -X OPTIONS https://subsight-api-v2.onrender.com/api/dashboard \
+    -H "Origin: https://subsight-app.vercel.app" \
     -H "Access-Control-Request-Method: GET"
-  # Must return Access-Control-Allow-Origin: https://subsight.vercel.app
+  # Must return Access-Control-Allow-Origin: https://subsight-app.vercel.app
   ```
 - [ ] **4. Verify Frontend Screens:**
-  - [ ] `/` (Dashboard): Metrics display Total Monthly Spend, Active Count, Potential Savings, and charts load without hydration errors.
-  - [ ] `/subscriptions`: Table lists detected subscriptions with confidence badges. Clicking a row opens the detail page.
-  - [ ] `/forgotten`: Forgotten subscription candidates appear with "Keep" / "Cancel" interactive buttons.
-  - [ ] `/transactions`: Paginated transaction ledger displays categories and amounts.
-  - [ ] `/insights`: Monthly spend forecast and category breakdown render correctly.
-  - [ ] `/upload`: Upload dropzone accepts CSV statement and processes pipeline stages.
-  - [ ] `/how-it-works`: Interactive explanation tabs and architecture diagram render.
+  - [ ] [`/`](https://subsight-app.vercel.app/) — Dashboard: Metrics display Total Monthly Spend, Active Count, Potential Savings, and charts load.
+  - [ ] [`/subscriptions`](https://subsight-app.vercel.app/subscriptions) — Table lists detected subscriptions with confidence badges.
+  - [ ] [`/forgotten`](https://subsight-app.vercel.app/forgotten) — Forgotten subscription candidates appear with "Keep" / "Cancel" buttons.
+  - [ ] [`/transactions`](https://subsight-app.vercel.app/transactions) — Paginated transaction ledger displays categories and amounts.
+  - [ ] [`/insights`](https://subsight-app.vercel.app/insights) — Monthly spend forecast and category breakdown render correctly.
+  - [ ] [`/upload`](https://subsight-app.vercel.app/upload) — Upload dropzone accepts CSV statement and processes pipeline stages.
+  - [ ] [`/how-it-works`](https://subsight-app.vercel.app/how-it-works) — Interactive explanation tabs and architecture diagram render.
 - [ ] **5. Reset Data to Clean Baseline:**
-  - Trigger `POST /api/demo/reset` followed by `POST /api/demo/seed` to guarantee predictable charts and clean state.
+  ```bash
+  curl -X POST https://subsight-api-v2.onrender.com/api/demo/reset
+  curl -X POST https://subsight-api-v2.onrender.com/api/demo/seed
+  ```
 - [ ] **6. Offline Backup:**
   - Keep `backend/app/seed/demo_transactions.csv` accessible on local desktop in case of live statement upload demonstration.

@@ -1,111 +1,269 @@
-# SUBSIGHT — Intelligent Subscription & Recurring Payment Detection Engine
+<div align="center">
 
-SUBSIGHT is an intelligent, privacy-first personal-finance prototype that ingests raw transaction statements (CSV & PDF), normalizes messy merchant descriptions, deterministically detects recurring payments, identifies candidate subscriptions, surfaces *potentially forgotten* recurring commitments, and generates rich financial burden insights.
+# ⚡ SUBSIGHT
+### Intelligent Subscription & Recurring Payment Detection Engine
 
----
+*Ingest raw bank statements → clean messy merchant descriptors → detect recurring commitments → surface forgotten subscriptions → forecast your financial burden. Deterministic, privacy-first, 100% free to host.*
 
-## 🚀 Quickstart (One-Command Boot)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.141-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
-### On Windows (PowerShell):
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts/dev.ps1
-```
+<br/>
 
-### On macOS / Linux / WSL / Bash:
-```bash
-make dev
-# or
-./scripts/dev.sh
-```
+### 🌐 [Live Demo → subsight-app.vercel.app](https://subsight-app.vercel.app) &nbsp;|&nbsp; ⚙️ [API Docs → Swagger UI](https://subsight-api-v2.onrender.com/docs)
 
-- **Frontend:** [http://localhost:3000](http://localhost:3000)
-- **FastAPI Backend:** [http://localhost:8000](http://localhost:8000)
-- **Interactive OpenAPI Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+<br/>
 
-*Note: On first startup, the database (`backend/app/data/subsight.db`) is automatically initialized and seeded with synthetic demo data.*
+![SUBSIGHT Dashboard](docs/screenshots/01-dashboard.png)
+
+</div>
 
 ---
 
-## 🎯 The 3-Minute Hackathon Demo Script
+## 🔗 Live Production URLs
 
-1. **Dashboard (`/`)**:
-   - Inspect active recurring spend (e.g. ₹6,396/month, ₹76,752/year), active subscription counts, and review-flagged count.
-   - Explore the 4 live charts: Monthly Spend Area, Category Donut, Highest Costs Bar, and 12-Month Trend.
-2. **Upload & Analyze (`/upload`)**:
-   - Drag and drop `backend/app/seed/demo_transactions.csv` into the dropzone.
-   - Observe the instant preview showing extracted rows, dates, and amounts.
-   - Click **"Analyze Transactions"** to watch the live 7-step engine trace complete with real execution timings.
-3. **Subscriptions (`/subscriptions`)**:
-   - Review detected subscriptions (Netflix, Spotify, Google One, Cult.fit, Adobe, Cloud Storage, Amazon Prime, Zomato Gold, iCloud+).
-   - Filter by status, search by merchant, or sort by monthly burden.
-4. **Subscription Details (`/subscriptions/{id}`)**:
-   - Open **Cloud Storage** to inspect the payment timeline and see the price step jump from ₹499 to ₹549.
-   - Examine the interval scatter plot comparing day deltas against the median line.
-5. **Potentially Forgotten (`/forgotten`)**:
-   - Explain the heuristic banner.
-   - Inspect **Cult.fit** or **Adobe Creative Cloud** — read the exact, factual, data-derived strings in the "Why Flagged" block.
-   - Click **"Keep"** on Cult.fit to verify immediate review-flag clearance and persistence.
-6. **Financial Insights (`/insights`)**:
-   - View the annual subscription burden, highest expenses, potential monthly savings, and narrative explanations.
-7. **Settings (`/settings`)**:
-   - Toggle theme (Light / Dark / System), switch profiles via the topbar, review the privacy stance, or test the "Delete Uploaded Data" flow.
-8. **How It Works (`/how-it-works`)**:
-   - Walk through the visual end-to-end pipeline, the core heuristic formula blocks, and the signal weighting model.
+| Service | URL | Status |
+|---------|-----|--------|
+| 🌐 **Frontend (Vercel)** | [https://subsight-app.vercel.app](https://subsight-app.vercel.app) | ✅ Live |
+| ⚙️ **Backend API (Render)** | [https://subsight-api-v2.onrender.com](https://subsight-api-v2.onrender.com) | ✅ Live |
+| 📖 **Swagger / OpenAPI Docs** | [https://subsight-api-v2.onrender.com/docs](https://subsight-api-v2.onrender.com/docs) | ✅ Live |
+| ❤️ **Health Check** | [https://subsight-api-v2.onrender.com/api/health](https://subsight-api-v2.onrender.com/api/health) | ✅ Live |
+| 📦 **GitHub Source** | [https://github.com/alok-108/subsight](https://github.com/alok-108/subsight) | ✅ Public |
+
+---
+
+## 📸 Full Product Walkthrough
+
+### 1. 📊 Interactive Analytics Dashboard
+Real-time summary of monthly recurring spend, annual commitment, active subscriptions count, potential savings, and spend distribution charts — all pre-seeded with Indian demo data.
+
+<p align="center">
+  <img src="docs/screenshots/01-dashboard.png" width="95%" alt="SUBSIGHT Dashboard" />
+</p>
+
+---
+
+### 2. 📤 Multi-Stage Statement Ingestion Pipeline
+Upload CSV/PDF bank statements with instant row preview, automatic column mapping, and 7-stage engine execution with millisecond-level telemetry.
+
+| File Upload & Column Mapping | 7-Stage Pipeline Telemetry |
+| :---: | :---: |
+| <img src="docs/screenshots/02-upload-pipeline.png" width="100%" alt="Upload Dropzone" /> | <img src="docs/screenshots/03-upload-stages.png" width="100%" alt="Pipeline Stages" /> |
+
+---
+
+### 3. 🧾 Transaction Ledger & Slide-over Drawer
+Explore all normalized debit transactions with category filtering, date sorting, merchant grouping, and interactive drawer inspection.
+
+| Filterable Transaction Ledger | Detailed Transaction Drawer |
+| :---: | :---: |
+| <img src="docs/screenshots/04-transactions-ledger.png" width="100%" alt="Transaction Ledger" /> | <img src="docs/screenshots/05-transaction-drawer.png" width="100%" alt="Transaction Drawer" /> |
+
+---
+
+### 4. 🔁 Subscriptions Explorer & Deep-Dive Inspection
+View all detected recurring subscriptions with confidence badges (High / Medium / Low), cadence, amount, and full payment history.
+
+<p align="center">
+  <img src="docs/screenshots/06-subscriptions-list.png" width="95%" alt="Subscriptions Table" />
+</p>
+
+Deep-dive into any subscription with payment timelines, price-step revision alerts, and interval variance scatter plots:
+
+| Subscription Metrics & Timeline | Interval Scatter Plot & Price Revision |
+| :---: | :---: |
+| <img src="docs/screenshots/07-subscription-detail.png" width="100%" alt="Subscription Details" /> | <img src="docs/screenshots/08-subscription-timeline.png" width="100%" alt="Timeline and Scatter" /> |
+
+---
+
+### 5. 👻 Potentially Forgotten Subscription Intelligence
+Surfaces subscriptions needing review based on unconfirmed status, long tenure, and renewal proximity. Users can keep or cancel with instant state persistence.
+
+| Review Banner & Surfaced Candidates | Interactive Keep / Cancel Actions |
+| :---: | :---: |
+| <img src="docs/screenshots/09-forgotten-detection.png" width="100%" alt="Forgotten Subscriptions" /> | <img src="docs/screenshots/10-forgotten-actions.png" width="100%" alt="Action Buttons" /> |
+
+---
+
+### 6. 💡 Financial Burden Insights & Forecasting
+Annual subscription commitments, highest recurring expenses, category-wise distribution, and upcoming renewal forecasts.
+
+| Narrative Insights & Key Metrics | Yearly Spend Forecast & Comparison |
+| :---: | :---: |
+| <img src="docs/screenshots/11-insights-analytics.png" width="100%" alt="Insights Overview" /> | <img src="docs/screenshots/12-insights-forecast.png" width="100%" alt="Insights Forecast" /> |
+
+---
+
+### 7. 🧠 Explainable AI & Algorithm Proof (`/how-it-works`)
+Transparent mathematical explanation of the confidence scoring formula, interval analysis, amount clustering, and signal weighting — no black-box ML.
+
+| Full Architecture Overview | End-to-End Pipeline Flow |
+| :---: | :---: |
+| <img src="docs/screenshots/13-how-it-works.png" width="100%" alt="How It Works Overview" /> | <img src="docs/screenshots/14-how-it-works-pipeline.png" width="100%" alt="Pipeline Architecture" /> |
+
+| Mathematical Confidence Formula | Signal Weighting Breakdown |
+| :---: | :---: |
+| <img src="docs/screenshots/15-how-it-works-math.png" width="100%" alt="Math Formula" /> | <img src="docs/screenshots/16-how-it-works-signals.png" width="100%" alt="Signal Weights" /> |
+
+---
+
+### 8. ⚙️ Settings & Dark Mode
+Built-in dark mode, notification preferences, data retention controls, and 12 pre-seeded Indian demo user profiles.
+
+| Settings & Data Erasure | Sleek Dark Mode Interface |
+| :---: | :---: |
+| <img src="docs/screenshots/17-settings.png" width="100%" alt="Settings Screen" /> | <img src="docs/screenshots/18-dark-theme.png" width="100%" alt="Dark Theme" /> |
 
 ---
 
 ## 🧠 Algorithmic Detection Architecture
 
-SUBSIGHT uses a multi-stage, purely deterministic pipeline (no probabilistic LLM hallucinations or brittle card scrapers):
+SUBSIGHT uses a **purely deterministic multi-stage pipeline** — no probabilistic LLM hallucinations, no brittle card scrapers:
 
-1. **Statement Ingestion & Deduplication**:
-   - Ingests CSV and PDF statements via flexible header aliasing (`Narration|Particulars|Merchant -> merchant`, `Debit|Withdrawal|Amount -> amount`).
-   - Deduplicates identical records using SHA-256 keys of `(user_id, date, merchant_clean, amount, direction)`.
-2. **Merchant Normalization & Aliasing**:
-   - Cleans noise tokens (`POS, UPI, IMPS, NEFT, ACH, TXN, REF, PVT, LTD, *12345`).
-   - Strips trailing Indian city names (`MUMBAI, BENGALURU, DELHI, PUNE, CHENNAI`).
-   - Maps strings through alias dictionaries and token-set fuzzy matching (threshold ≥ 0.85).
-3. **Adaptive Amount Clustering & Price-Revision Merging**:
-   - Clusters transaction amounts with tolerance `max(20.0, 0.05 × median)`.
-   - Automatically merges adjacent chronological runs with stepped increases ≤ 25% (e.g. ₹499 → ₹549).
-4. **Cadence Delta Analysis**:
-   - Computes day deltas between consecutive transactions:
-     - Weekly (5–9 days)
-     - Monthly (25–35 days)
-     - Quarterly (80–100 days)
-     - Yearly (350–380 days)
-   - Tolerates single skipped payments (up to 2.2× median interval) without breaking the pattern.
-5. **Composite Confidence Scoring (0.0 to 1.0)**:
-   $$\text{Confidence} = 0.35 \times \text{Interval} + 0.25 \times \text{Amount} + 0.20 \times \text{Count} + 0.10 \times \text{Merchant} + 0.10 \times \text{Recency}$$
-   - **High (≥ 0.80)**
-   - **Medium (0.62 – 0.79)**
-   - **Low (0.45 – 0.61)**
-   - **Below 0.45**: Excluded from subscriptions (marked non-recurring).
-6. **Review / Forgotten Flag**:
-   - Set when confidence ≥ 0.62, status is active, tenure ≥ 6 months (or annual renewal within 30 days), and unconfirmed.
-   - Strictly outputs factual, neutral statements (e.g. *"Recurring payment detected for 8 consecutive months."*) — never declaring a user forgot.
+```
+┌─────────────────────┐    ┌──────────────────────────┐    ┌───────────────────────┐
+│  Raw Statement Ingest│ →  │  Merchant Normalization   │ →  │  Amount Clustering    │
+│  (CSV / PDF Parser) │    │  (Token cleanup, Aliasing)│    │  (Price Step Merging) │
+└─────────────────────┘    └──────────────────────────┘    └───────────────────────┘
+                                                                       │
+                                                                       ▼
+┌─────────────────────┐    ┌──────────────────────────┐    ┌───────────────────────┐
+│  Forgotten Detection │ ←  │  Confidence Scoring      │ ←  │  Cadence Delta Engine │
+│  (Neutral Heuristics)│   │  (0.00 → 1.00 Formula)   │    │  (Interval Variance)  │
+└─────────────────────┘    └──────────────────────────┘    └───────────────────────┘
+```
+
+### Composite Confidence Formula
+
+$$\text{Score} = 0.35 \times S_{\text{interval}} + 0.25 \times S_{\text{amount}} + 0.20 \times S_{\text{count}} + 0.10 \times S_{\text{merchant}} + 0.10 \times S_{\text{recency}}$$
+
+| Band | Score Range | Meaning |
+|------|-------------|---------|
+| 🟢 **High** | ≥ 0.80 | Definite recurring subscription |
+| 🟡 **Medium** | 0.62 – 0.79 | Probable subscription (e.g. variable cloud bill) |
+| 🟠 **Low** | 0.45 – 0.61 | Possible pattern — user review recommended |
+| ⚫ **Excluded** | < 0.45 | Not classified as recurring |
 
 ---
 
-## 🔒 Privacy & Synthetic Stance
+## 🚀 Quickstart (Local Development)
 
-> **Your financial data is sensitive. Use only data you are comfortable uploading.**
+### Prerequisites
+- Python 3.11+
+- Node.js 20+
+- PostgreSQL (or use SQLite for local dev)
 
-- **Zero Bank Credentials**: No Plaid, no scraping, no card numbers, no credentials stored.
-- **100% Synthetic Indian Demo Data**: Includes 12 synthetic profiles across North, South, East, and West regions (Aarav Sharma, Priya Verma, Arjun Nair, etc.).
-- **Local Persistence**: Runs on a local SQLite database (`backend/app/data/subsight.db`).
-- **Data Erasure**: Users can purge uploaded statements and derived transactions at any time from Settings.
+### Option 1 — Auto Boot Scripts
+
+```powershell
+# Windows PowerShell
+powershell -ExecutionPolicy Bypass -File scripts/dev.ps1
+```
+
+```bash
+# macOS / Linux / WSL
+./scripts/dev.sh
+# or: make dev
+```
+
+### Option 2 — Manual Setup
+
+```bash
+# 1. Backend
+cd backend
+python -m venv venv
+source venv/bin/activate        # Windows: .\venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+# 2. Frontend (new terminal)
+cd frontend
+npm install
+npm run dev
+```
+
+Open:
+- **Frontend:** http://localhost:3000
+- **API / Swagger:** http://localhost:8000/docs
+
+---
+
+## 🌐 Production Deployment (100% Free Tier)
+
+| Component | Platform | Plan | Cost |
+|-----------|----------|------|------|
+| **Frontend** | Vercel | Hobby | ₹0/mo |
+| **Backend API** | Render | Free Web Service | ₹0/mo |
+| **Database** | Render | Free PostgreSQL | ₹0/mo |
+| **Keep-Alive** | cron-job.org | Free | ₹0/mo |
+| **Storage** | Cloudflare R2 | Free Tier | ₹0/mo |
+
+Full deployment guide → [`DEPLOYMENT.md`](./DEPLOYMENT.md)
+
+### 1-Click Deploy Backend to Render
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/alok-108/subsight)
+
+### 1-Click Deploy Frontend to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alok-108/subsight&root-directory=frontend&env=NEXT_PUBLIC_API_BASE_URL&project-name=subsight)
 
 ---
 
 ## 🧪 Testing
 
-Run backend test suite covering all detection edge cases:
 ```bash
-cd backend
-$env:PYTHONPATH="." ; .\venv\Scripts\python -m pytest tests -v
+# Backend test suite
+cd backend && pytest tests/ -v
+
+# Frontend type check
+cd frontend && npm run typecheck
+
+# Full deployment verification
+python scripts/verify_deployment.py --backend https://subsight-api-v2.onrender.com
 ```
-Or via make:
-```bash
-make test
+
+---
+
+## 🔒 Privacy Guarantee
+
+- **Zero bank credentials required** — ingests exported statements only. No Plaid, no OAuth bank logins.
+- **100% synthetic demo data** — pre-loaded with 12 diverse Indian profiles (Aarav, Priya, Arjun, Meera...) for safe, realistic testing.
+- **Instant data purge** — one-click statement & transaction erasure from Settings.
+- **No telemetry** — zero analytics, zero tracking, fully self-contained.
+
+---
+
+## 🗂️ Project Structure
+
 ```
+subsight/
+├── backend/                  # FastAPI Python backend
+│   ├── app/
+│   │   ├── main.py           # App entry point & router registration
+│   │   ├── models/           # SQLAlchemy ORM models
+│   │   ├── routers/          # API route handlers (dashboard, subscriptions, etc.)
+│   │   ├── services/         # Detection engine, ingestion pipeline, insights
+│   │   └── seed/             # Synthetic demo data (12 Indian user profiles)
+│   ├── tests/                # Pytest test suite
+│   └── requirements.txt
+├── frontend/                 # Next.js 16 App Router frontend
+│   ├── app/                  # Pages (dashboard, subscriptions, forgotten, etc.)
+│   ├── components/           # Reusable UI components
+│   ├── lib/                  # API client, types, utilities
+│   └── next.config.ts
+├── docs/
+│   └── screenshots/          # 18 product screenshots
+├── scripts/                  # Dev/deploy helper scripts
+├── render.yaml               # Render Blueprint (backend + DB)
+├── DEPLOYMENT.md             # Full deployment guide
+└── README.md
+```
+
+---
+
+## 📄 License
+
+MIT License © 2024 — Built for hackathons, engineering demos, and personal-finance innovation.
